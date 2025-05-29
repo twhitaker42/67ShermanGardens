@@ -5,7 +5,7 @@ export const initialPlants: Plant[] = [
     id: '1',
     commonName: 'Sheep Fescue',
     scientificName: 'Festuca ovina',
-    imageUrl: 'https://en.wikipedia.org/wiki/Festuca_ovina#/media/File:Sheep_fescue.jpg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Lolium.perenne.2.jpg',
     wikiUrl: 'https://en.wikipedia.org/wiki/Festuca_ovina',
     plantType: 'Grass',
     isNativeToCO: false,
