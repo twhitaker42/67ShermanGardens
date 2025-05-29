@@ -19,7 +19,6 @@ function App() {
           title="Track Your Garden With Ease" 
           description="Keep track of all your plants in one place. Add details, photos, and care instructions to ensure your garden thrives all year round."
           imageUrl="https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg"
-          secondaryImageUrl="https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg"
         />
         
         <PlantGallery 
