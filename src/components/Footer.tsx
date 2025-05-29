@@ -1,5 +1,5 @@
 import React from 'react';
-import { Leaf, Mail, Phone, MapPin } from 'lucide-react';
+import { Leaf, Mail } from 'lucide-react';
 
 interface FooterProps {
   siteName: string;
@@ -12,8 +12,6 @@ const Footer: React.FC<FooterProps> = ({
   siteName, 
   email = "twhitaker42@gmail.com"
 }) => {
-  const currentYear = new Date().getFullYear();
-  
   return (
     <footer className="bg-gray-800 text-gray-200">
       <div className="container mx-auto px-4 py-8">
@@ -40,15 +38,6 @@ const Footer: React.FC<FooterProps> = ({
                 </li>
               )}
             </ul>
-          </div>
-        </div>
-        
-        <div className="border-t border-gray-700 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {currentYear} {siteName}. All rights reserved.</p>
-          
-          <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-green-400 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-green-400 transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>
