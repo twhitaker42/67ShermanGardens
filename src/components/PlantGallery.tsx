@@ -35,7 +35,7 @@ const PlantGallery: React.FC<PlantGalleryProps> = ({
     <section className="py-8">
       <div className="container mx-auto px-4">
         <div className="mb-6">
-          <h2 className="text-2xl font-bold text-gray-800">67 Sherman Garden Plants</h2>
+          <h2 className="text-2xl font-bold text-gray-800">Some plants you might find here</h2>
         </div>
 
         <PlantFilters
