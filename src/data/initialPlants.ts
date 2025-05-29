@@ -65,7 +65,7 @@ export const initialPlants: Plant[] = [
     isNativeToCO: false,
   },
   {
-    id: '7',
+    id: '8',
     commonName: 'Shasta daisy',
     scientificName: 'Leucanthemum × superbum',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Leucanthemum_x_superbum_%27Becky%27_in_NH.jpg/1280px-Leucanthemum_x_superbum_%27Becky%27_in_NH.jpg',
