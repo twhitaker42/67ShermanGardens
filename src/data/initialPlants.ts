@@ -55,4 +55,22 @@ export const initialPlants: Plant[] = [
     plantType: 'Wildflower',
     isNativeToCO: true,
   },
+  {
+    id: '7',
+    commonName: 'Common Dandelion',
+    scientificName: 'Taraxacum officinale',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Taraxacum_officinale_PID1200-1.jpg',
+    wikiUrl: 'https://en.wikipedia.org/wiki/Taraxacum_officinale',
+    plantType: 'Weed',
+    isNativeToCO: false,
+  },
+  {
+    id: '7',
+    commonName: 'Shasta daisy',
+    scientificName: 'Leucanthemum × superbum',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Leucanthemum_x_superbum_%27Becky%27_in_NH.jpg/1280px-Leucanthemum_x_superbum_%27Becky%27_in_NH.jpg',
+    wikiUrl: 'https://en.wikipedia.org/wiki/Leucanthemum_%C3%97_superbum',
+    plantType: 'Flower',
+    isNativeToCO: false,
+  },
 ];
