@@ -16,9 +16,9 @@ function App() {
       
       <main className="flex-grow">
         <PromoSection 
-          title="Track Your Garden With Ease" 
-          description="Keep track of all your plants in one place. Add details, photos, and care instructions to ensure your garden thrives all year round."
-          imageUrl="https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg"
+          title="What's the deal with this yard?!" 
+          description="Well... we started with a yard of mostly weeds. The dream is for this to look like a meadow or plain with local flora. We've planted native grasses and flowers plus have some volunteer plants. Let us know what you see!"
+          imageUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Alpine_tundra_Copper_Mountain_Colorado.jpg/960px-Alpine_tundra_Copper_Mountain_Colorado.jpg?20100821233319"
         />
         
         <PlantGallery 
