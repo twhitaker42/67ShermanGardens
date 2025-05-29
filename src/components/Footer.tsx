@@ -10,9 +10,7 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ 
   siteName, 
-  email = "garden@example.com", 
-  phone = "(555) 123-4567", 
-  address = "123 Garden Street, Plant City" 
+  email = "twhitaker42@gmail.com"
 }) => {
   const currentYear = new Date().getFullYear();
   
@@ -26,7 +24,7 @@ const Footer: React.FC<FooterProps> = ({
               <h2 className="text-xl font-bold">{siteName}</h2>
             </div>
             <p className="text-gray-400 max-w-md">
-              Your personal garden tracking app. Keep track of all your plants and watch your garden grow!
+              Just our own little meadow, or soon to be!
             </p>
           </div>
           
@@ -39,22 +37,6 @@ const Footer: React.FC<FooterProps> = ({
                   <a href={`mailto:${email}`} className="hover:text-green-400 transition-colors">
                     {email}
                   </a>
-                </li>
-              )}
-              
-              {phone && (
-                <li className="flex items-center">
-                  <Phone size={16} className="mr-2 text-green-400" />
-                  <a href={`tel:${phone.replace(/[^0-9]/g, '')}`} className="hover:text-green-400 transition-colors">
-                    {phone}
-                  </a>
-                </li>
-              )}
-              
-              {address && (
-                <li className="flex items-start">
-                  <MapPin size={16} className="mr-2 mt-1 text-green-400" />
-                  <span>{address}</span>
                 </li>
               )}
             </ul>
