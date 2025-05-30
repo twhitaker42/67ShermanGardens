@@ -65,7 +65,7 @@ export const initialPlants: Plant[] = [
     isNativeToCO: false,
   },
   {
-    id: '8',
+    id: '7',
     commonName: 'Shasta daisy',
     scientificName: 'Leucanthemum × superbum',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Leucanthemum_x_superbum_%27Becky%27_in_NH.jpg/1280px-Leucanthemum_x_superbum_%27Becky%27_in_NH.jpg',
@@ -73,16 +73,4 @@ export const initialPlants: Plant[] = [
     plantType: 'Flower',
     isNativeToCO: false,
   },
-  {
-    id: '9',
-    commonName: 'Blue Flax',
-    scientificName: 'Linum perenne',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Linum_lewisii%2C_blue_flax_flower%2C_Albuquerque.JPG/960px-Linum_lewisii%2C_blue_flax_flower%2C_Albuquerque.JPG?20070706055541',
-    wikiUrl: 'https://en.wikipedia.org/wiki/Linum_perenne',
-    plantType: 'Flower',
-    isNativeToCO: false,
-  },
 ];
-
-
-
