@@ -4,7 +4,6 @@ import PromoSection from './components/PromoSection';
 import PlantGallery from './components/PlantGallery';
 import Footer from './components/Footer';
 import { usePlants } from './hooks/usePlants';
-import yardImage from './images/yard2025-05-30.jpg';
 
 function App() {
   const { plants, loading } = usePlants();
@@ -19,7 +18,7 @@ function App() {
         <PromoSection 
           title="What's the deal with this yard?!" 
           description="Well... we started with a yard of mostly weeds. The dream is for this to look like a meadow or plain with local flora. We've planted native grasses and flowers plus have some volunteer plants. Let us know what you see!"
-          imageUrl={yardImage}
+          imageUrl="https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg"
         />
         
         <PlantGallery 
