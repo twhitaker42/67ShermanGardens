@@ -4,7 +4,7 @@ import PromoSection from './components/PromoSection';
 import PlantGallery from './components/PlantGallery';
 import Footer from './components/Footer';
 import { usePlants } from './hooks/usePlants';
-import promoBackgroundImage from 'src/images/2025-05-30yard.JPG';
+import promoBackgroundImage from './images/2025-05-30yard.jpg';
 
 function App() {
   const { plants, loading } = usePlants();
